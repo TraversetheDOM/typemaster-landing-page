@@ -1,0 +1,114 @@
+# Essential Stuff 
+
+
+
+## CSS Links
+
+```html
+<link rel="stylesheet" href="starter-code/css/myreset.css" />
+<link rel="stylesheet" href="starter-code/css/style.css" />
+<link rel="stylesheet" href="starter-code/css/queries.css" />
+```
+
+## Google Fonts Imports
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap" rel="stylesheet">
+```
+
+## Icons 
+
+```html
+<ion-icon name="tv"></ion-icon>
+<ion-icon name="bluetooth"></ion-icon>
+<ion-icon name="bluetooth"></ion-icon>
+<ion-icon name="bulb"></ion-icon>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+```
+
+## css
+
+```css
+--orange:hsl(22, 89%, 62%);
+--light-orange: hsl(22, 100%, 69%);
+--very-dark-cyan:hsl(220, 50%, 7%);
+--greyish-blue:hsl(221, 23%, 58%);
+--light-greyish-blue:hsl(198, 28%, 93%);
+--white:hsl(0, 0%, 100%);
+```
+
+## radius
+
+```css
+--radius-1: 2px;
+--radius-2: 4px;
+--radius-3: 6px;
+--radius-4: 8px;
+--radius-5: 10px;
+--radius-6: 12px;
+--radius-7: 14px;
+--radius-8: 16px;
+--radius-9: 18px;
+--radius-10: 20px;
+```
+
+## Typography
+
+```css
+  --ff-Barlow: 'Barlow', sans-serif;
+  --fw-500: 500;
+  --fw-900: 900;
+  --fs-1: clamp(1.12rem, calc(1.04rem + 0.25vw), 1.41rem);
+  --fs-2: clamp(1.26rem, calc(1.17rem + 0.28vw), 1.58rem);
+  --fs-3: clamp(1.42rem, calc(1.33rem + 0.32vw), 1.78rem);
+  --fs-4: clamp(1.6rem, calc(1.49rem + 0.36vw), 2.00rem);
+  --fs-5: clamp(1.81rem, calc(1.66rem + 0.40vw), 2.26rem);
+  --fs-6: clamp(2.03rem, calc(1.89rem + 0.45vw), 2.53rem);
+  --fs-7: clamp(2.27rem, calc(2.11rem + 0.51vw), 2.85rem);
+  --fs-8: clamp(2.56rem, calc(2.38rem + 0.57vw), 3.20rem);
+  --fs-9: clamp(2.88rem, calc(2.67rem + 0.64vw), 3.6rem);
+  --fs-10: clamp(3.25rem, calc(3.01rem + 0.72vw), 4.05rem);
+  --fs-11: clamp(3.65rem, calc(3.39rem + 0.81vw), 4.56rem);
+  --fs-12: clamp(4.11rem, calc(3.81rem + 0.92vw), 5.14rem);
+  --fs-13: clamp(4.62rem, calc(4.29rem + 1.03vw), 5.78rem);
+  --fs-14: clamp(5.2rem, calc(4.83rem + 1.16vw), 6.50rem);
+```
+
+
+## Spacing 
+
+```css
+  --space-1: clamp(0.21rem, calc(0.16rem + 0.12vw), 0.30rem);
+  --space-2: clamp(0.40rem, calc(0.38rem + 0.12vw), 0.50rem);
+  --space-3: clamp(0.80rem, calc(0.72rem + 0.24vw), 1.01rem);
+  --space-4: clamp(1.2rem, calc(1.09rem + 0.37vw), 1.50rem);
+  --space-5: clamp(1.60rem, calc(1.44rem + 0.49vw), 2.00rem);
+  --space-6: clamp(2.40rem, calc(2.16rem + 0.73vw), 3.01rem);
+  --space-7: clamp(3.2rem, calc(2.88rem + 0.98vw), 4.0rem);
+  --space-8: clamp(4.8rem, calc(4.34rem + 1.46vw), 6.0rem);
+  --space-9: clamp(6.4rem, calc(5.78rem + 1.95vw), 8.0rem);
+  --space-10: clamp(9.60rem, calc(8.66rem + 2.93vw), 12.00rem);
+
+  /* One-up pairs */
+  --space-1-2: clamp(0.21rem, calc(0.08rem + 0.37vw), 0.50rem);
+  --space-2-3: clamp(0.40rem, calc(0.16rem + 0.73vw), 1.01rem);
+  --space-3-4: clamp(0.80rem, calc(0.53rem + 0.85vw), 1.50rem);
+  --space-4-5: clamp(1.2rem, calc(0.88rem + 0.98vw), 2.00rem);
+  --space-5-6: clamp(1.60rem, calc(1.06rem + 1.71vw), 3.01rem);
+  --space-6-7: clamp(2.40rem, calc(1.78rem + 1.95vw), 4.00rem);
+  --space-7-8: clamp(3.20rem, calc(2.11rem + 3.41vw), 6.00rem);
+  --space-8-9: clamp(4.8rem, calc(3.55rem + 3.90vw), 8.00rem);
+  --space-9-10: clamp(6.4rem, calc(4.21rem + 6.83vw), 12.00rem);
+
+  /* Custom pairs */
+  --space-5-7: clamp(1.60rem, calc(0.66rem + 2.93vw), 4.00rem);
+  --space-6-8: clamp(2.40rem, calc(0.99rem + 4.39vw), 6.00rem);
+```
+
+## Transition/Animations
+
+```css
+--transition: all 0.4s;
+```
