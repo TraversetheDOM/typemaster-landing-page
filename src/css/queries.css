@@ -1,0 +1,187 @@
+
+
+/* For screens and devices/browser width 748px and above  */
+@media only screen and (min-width:48em) {
+  .images .hero_image-tablet {
+    display:block; 
+    border-radius: var(--radius-6);
+    margin-left: 18px;
+    transform: translateX(90px);
+  }
+
+  .hero_image-mobile {
+    display:none; 
+  }
+
+  .hero-flex__property {
+    align-items:center; 
+    gap:0px;
+  }
+  
+  .hero_content, .images{
+    flex-basis:40%; 
+    flex-grow:1; 
+  }
+
+  .about_image_container-1 {
+    transform:unset; 
+  }
+
+  .about_image_wrapper {
+    margin-right:unset; 
+    gap:20px;
+    padding:var(--space-5);
+    flex-grow:1; 
+    margin-inline:auto; 
+  }
+
+  .about_image-tablet-a{
+    display:block; 
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    border-radius:var(--radius-6); 
+  }
+
+  .about_image-tablet-b {
+    display:block; 
+    border-radius: var(--radius-6); 
+  }
+
+  .about_image-mobile-a, .about_image-mobile-b {
+    display:none; 
+  }
+
+  .about_title, .about_description{
+    flex-basis:40%; 
+    flex-grow: 1; 
+    text-align:left; 
+  }
+
+  .features-flex__property {
+    align-content:center; 
+    gap:10px;
+  }
+
+  .feature_1, .feature_2, .feature_3, .feature_4 {
+    flex-basis:40%; 
+    width:30px; 
+    text-align:left; 
+    flex-grow:1;
+  }
+
+  .feature_image_container {
+    margin-inline:unset;
+  }
+
+}
+
+
+/* For screen and devices/browser width 1424px and above  */
+
+@media only screen and (min-width:89em) {
+  .hero, 
+  .about {
+    position: relative; 
+  }
+  
+  .container{
+    max-width:130rem;
+    margin-inline:auto;
+    padding-inline:var(--space-5);
+    position: relative; 
+    z-index: 4; 
+  } 
+
+  @supports not ((margin-inline:auto) and (padding-inline:var(--space-5))) {
+    .container{
+      margin: 0 auto;
+      padding-left:var(--space-5);
+      padding-right:var(--space-5)
+    } 
+  } 
+
+  .hero-flex__property {
+    gap:130px; 
+  }
+
+  .hero_content {
+    padding-inline: unset; 
+  }
+
+  .images .hero_image-tablet {
+    margin-left:unset; 
+    transform:unset; 
+    display:none; 
+  }
+
+  .images .hero_image-desktop {
+    display:block; 
+    border-radius: var(--radius-6);
+  }
+
+  .about_image_wrapper {
+    padding:unset; 
+    margin-bottom:unset; 
+    flex-shrink:1;
+  }
+
+  .about_image-desktop-a{
+    display:block; 
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    border-radius:var(--radius-6); 
+  }
+
+  .about_image-tablet-a, .about_image-tablet-b{
+    display:none; 
+  }
+
+  .about_image-desktop-b {
+    display:block; 
+    border-radius: var(--radius-6); 
+  }
+
+  .about_content {
+    padding-inline:unset; 
+    flex-shrink:2;
+  }
+
+  .about-flex__property {
+    align-items:center; 
+    flex-wrap:nowrap; 
+    gap:100px;
+  }
+
+  .about_title {
+    flex-basis:100%;
+  }
+
+  .features-flex__property {
+    align-content:center; 
+    gap:unset; 
+  }
+
+  .feature_1, .feature_2, .feature_3, .feature_4 {
+    flex-basis:25%; 
+    text-align:left;  
+  }
+
+  .square_pattern-1, .square_pattern-2 {
+    display: block;
+    position: absolute; 
+    z-index: 3; 
+  }
+
+  .square_pattern-1 {
+    top:0; 
+    right:0; 
+    transform: translateX(75%); 
+  }
+
+  .square_pattern-2 {
+    left: 0; 
+    bottom: 0; 
+    transform: translateX(-75%); 
+  }
+}
+
