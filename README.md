@@ -1,6 +1,6 @@
 # ReadMe Documentation
 
-```css
+
 <div align="center">
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/salutdami/typemaster-keyboard)
@@ -20,7 +20,7 @@
 </div>
 
 <br />
-```
+
 
 ### Demo Screenshots
 
