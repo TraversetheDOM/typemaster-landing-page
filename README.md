@@ -1,15 +1,8 @@
-# ReadMe Documentation
+# ReadME Documentation
 
 
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/salutdami/typemaster-keyboard)
-  ![GitHub stars](https://img.shields.io/github/stars/salutdami/typemaster-keyboard?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/salutdami/typemaster-keyboard?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/salutdami?style=social)](https://twitter.com/intent/follow?screen_name=salutdami)
-
-  <br />
-  <br />
 
   <h2 align="center">Typemaster Keyboard - A Landing Page </h2>
 
