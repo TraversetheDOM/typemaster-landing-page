@@ -45,7 +45,7 @@ git clone https://github.com/salutDami/typemaster-landing-page.git
 
 ### Contact
 
-If you want to contact me you can reach me at [Twitter](https://twitter.com/home) or [LinkedIn](https://www.linkedin.com/in/ikuomola-stephen/)
+If you want to contact me you can reach me at [Twitter](https://twitter.com/_TraverseDOM) or [LinkedIn](https://www.linkedin.com/in/ikuomola-stephen/)
 
 ### License
 

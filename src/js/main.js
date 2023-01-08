@@ -1,5 +1,4 @@
 const sectionElements = document.querySelectorAll('.section'); 
-console.log(sectionElements); 
 
 
 const observerOptions = {
