@@ -34,13 +34,13 @@ To run **typemaster keyboard** locally run this command on your git bash:
 Linux and MacOs:
 
 ```bash
-sudo git clone https://github.com/salutDami/typemaster-landing-page.git
+sudo git clone https://github.com/TraversetheDOM/typemaster-landing-page.git
 ```
 
 Windows: 
 
 ```bash
-git clone https://github.com/salutDami/typemaster-landing-page.git
+git clone https://github.com/TraversetheDOM/typemaster-landing-page.git
 ```
 
 ### Contact
